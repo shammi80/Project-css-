@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -96,14 +97,60 @@ body{
     max-width: 1140px;
     margin: 0px auto;
     background-color: rgb(229, 231, 255); 
-    height: 200px;
+    height: 240px;
+    border-radius: 20px;
+    margin-bottom: 90px;
+    
+    
 }
 .users-title h1{
     text-align: center;
     padding-top: 35px;
-  
+    font-size: 30px;
     font-family: "Raleway", sans-serif;
     width: 400;
+}
+.users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 40px;
+}
+.list{
+    font-family: "inter", sans-serif;
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: auto;
+
+}
+.user-list {
+    text-align: center;
+
+    color: rgb(112, 112, 112);
+
     
-  
+}
+
+.user-review{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.title h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.list1{
+   width: 300px;
+    height:200px ;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icon{
+    padding-bottom: 10px;
+    color: #FFB805;
 }
