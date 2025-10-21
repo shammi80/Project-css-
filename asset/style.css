@@ -215,3 +215,80 @@ body{
    height: 320px;
    
 }
+/* contact section*/
+.contact-section{
+    max-width: 1140px;
+    margin: 0px auto;
+
+    
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+
+}
+.contact-title{
+    width: 350px;
+    height: 200px;
+   
+    margin-top: 40px;
+}
+.contact-title h1{
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Raleway", sans-serif;
+    width: 400;
+
+
+}
+.contact{
+  
+  margin-top: 40px;
+ 
+}
+label{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    width: 400;
+}
+input{
+   padding: 15px;
+    border-radius: 10px;
+    border: 2px solid  #D6DDED;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    width: 400;
+    color:rgb(100, 100, 100) ;
+
+}
+.message{
+    height: 100px;
+   
+}
+.button3{
+   
+    border-radius: 10px;
+    background-color: #4E47FF;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    color: white;
+   
+
+
+}
+.button3:hover{
+    background-color: #ec9e38;
+}
+.contact-button button{
+    width: 100%;
+}
+
+/*footer section */
+ .footer-section{
+    height: 350px;
+    background-color: #FFFFFF;
+ }
