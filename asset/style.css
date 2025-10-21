@@ -39,6 +39,9 @@ body{
     border: none;
     color: white;
 }
+.button:hover{
+    background-color: #e9a955;
+}
 
 /* banner part */
 .banner{
@@ -65,6 +68,9 @@ body{
     color: white;
     margin-top: 20px;
 
+}
+.button1:hover{
+    background-color: #e9a955;
 }
 /* action section */
 .action-section{
@@ -215,6 +221,7 @@ body{
    padding-top: 30px;
    padding-bottom: 30px;
 }
+
 .title2 img{
     border-radius: 30px;
    height: 320px;
@@ -281,12 +288,12 @@ input{
     padding: 15px 25px 15px 25px;
     border: none;
     color: white;
-   
+    font-size: 18px;
 
 
 }
 .button3:hover{
-    background-color: #ec9e38;
+    background-color: #e9a955;
 }
 .contact-button button{
     width: 100%;
