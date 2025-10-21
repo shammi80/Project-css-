@@ -36,6 +36,8 @@ body{
     border: none;
     color: white;
 }
+
+/* banner part */
 .banner{
     text-align: center;
     height: 180px;
@@ -211,7 +213,7 @@ body{
    padding-bottom: 30px;
 }
 .title2 img{
-    border-radius: 20px;
+    border-radius: 30px;
    height: 320px;
    
 }
@@ -291,4 +293,34 @@ input{
  .footer-section{
     height: 350px;
     background-color: #FFFFFF;
+ }
+
+ .footer-title{
+    text-align: center;
+    padding-top: 80px;
+   
+    height: 180px;
+    width: 450px;
+    margin: 60px auto;
+ }
+ .footer-title h1{
+     font-size: 85px;
+    font-family: "Inter", sans-serif;
+    width: 400;
+    font-weight: bold;
+    color: #4E47FF;
+ }
+ .footer-title p{
+    color: #8987A1;
+   
+ }
+
+ ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+ }
+ li a{
+    text-decoration: none;
+    color: #8987A1;
  }
