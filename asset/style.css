@@ -188,3 +188,30 @@ body{
     padding-top: 10px;
     padding-right: 20px;
 }
+
+.focus-section{
+    max-width: 1140px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 600px;
+}
+
+.title2{
+    text-align: center;
+    padding-top: 50px;
+}
+.title2 p{
+    padding-top: 10px;
+    color: rgb(99, 99, 99);;
+}
+.button2{
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.title2 img{
+    border-radius: 20px;
+   height: 320px;
+   
+}
