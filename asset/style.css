@@ -8,7 +8,7 @@
 body{
     background-color: #F5F8FF;
 }
-
+/* header section */
 .header-section{
     background-image: url(/asset/images/Hero-bg.png);
     height: 550px;
@@ -61,6 +61,7 @@ body{
     margin-top: 20px;
 
 }
+/* action section */
 .action-section{
     max-width: 1140px;
     margin: 0px auto;
@@ -93,6 +94,8 @@ body{
    
     margin-top: 50px;
 }
+
+/* productive user section */
 .user-section{
     max-width: 1140px;
     margin: 0px auto;
@@ -132,8 +135,8 @@ body{
 
     
 }
-
-.user-review{
+ /* reviewer section */
+.review-section{
     max-width: 1140px;
     margin: 0px auto;
 }
@@ -141,16 +144,47 @@ body{
     text-align: center;
     padding-top: 30px;
 }
+
+.review-list{
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 80px;
+}
 .list1{
-   width: 300px;
-    height:200px ;
+   width: 350px;
+    height:250px ;
     margin-top: 40px;
     background-color: #FFFFFF;
     padding-top: 20px;
-    padding-left: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 25px;
+    border-radius: 10px;
+    border: 1px solid #f3f1f1;
 }
 .icon{
     padding-bottom: 10px;
     color: #FFB805;
+    margin-top: 20px;
+}
+.profile{
+    display: flex;
+    gap: 20px;
+    padding-top: 25px;
+
+}
+.profile img{
+    border-radius: 50%;
+}
+.profile-info h3{
+  color: rgb(117, 117,117);
+}
+
+.profile-info p{
+  color: rgb(179, 179,179);
+}
+.list1-title{
+  padding-top: 15px;
+}
+.list1-title p{
+    padding-top: 10px;
+    padding-right: 20px;
 }
