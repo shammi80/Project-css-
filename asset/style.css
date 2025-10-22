@@ -277,12 +277,19 @@ input{
     color:rgb(100, 100, 100) ;
 
 }
-.message{
-    height: 100px;
-   
+textarea{
+    height: 90px;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    width: 400;
+    color:rgb(100, 100, 100) ;
+    border-radius: 10px;
+    border: 2px solid  #D6DDED;
+    padding: 15px;
 }
 .button3{
-   
+    margin-top: 10px;
     border-radius: 10px;
     background-color: #4E47FF;
     padding: 15px 25px 15px 25px;
